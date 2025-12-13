@@ -1,0 +1,56 @@
+# Core Python scientific stack
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# YOLO (Object Detection)
+ultralytics
+
+# Tracking (DeepSORT / ByteTrack utilities)
+lap
+filterpy
+
+# Computer Vision / Image Processing
+opencv-python
+opencv-contrib-python
+Pillow
+
+# Video handling
+ffmpeg-python
+
+# Experiment tracking
+mlflow
+
+# Data versioning
+dvc
+dvc[gdrive]        # or dvc[s3] / dvc[gs] depending on your remote
+
+# Workflow orchestration
+apache-airflow==2.9.0
+apache-airflow-providers-docker
+apache-airflow-providers-http
+
+# API Serving
+fastapi
+uvicorn[standard]
+
+# Web dashboard
+streamlit
+gradio
+
+# Utilities & Logging
+pytest
+tqdm
+rich
+pyyaml
+python-dotenv
+requests
+
+

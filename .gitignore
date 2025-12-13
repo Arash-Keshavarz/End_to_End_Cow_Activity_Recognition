@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+#*.ipynb
+
+# =========================
+# PyTorch / ML
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+
+# =========================
+# Data 
+# =========================
+data/
+datasets/
+raw_data/
+processed_data/
+*.npy
+*.npz
+*.mat
+*.hdf5
+*.csv
+
+# =========================
+# Experiment Tracking
+# =========================
+runs/
+logs/
+wandb/
+mlruns/
+checkpoints/
+
+# =========================
+# Results / Outputs
+# =========================
+outputs/
+results/
+figures/
+plots/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.log
+*.tmp
+*.bak
